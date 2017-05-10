@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>string对象</title>
+<script type="text/javascript">
+var mystr="Hello World!"
+document.write(  mystr.substring(6)      + "<br />");
+document.write(  mystr.substring(0,5) );
+</script>
+</head>
+<body>
+<br><br><br>
+提取字符串substring()
+substring() 方法用于提取字符串中介于两个指定下标之间的字符。
+
+语法:
+
+stringObject.substring(startPos,stopPos) 
+参数说明:
+
+
+
+注意：
+
+1. 返回的内容是从 start开始(包含start位置的字符)到 stop-1 处的所有字符，其长度为 stop 减start。
+
+2. 如果参数 start 与 stop 相等，那么该方法返回的就是一个空串（即长度为 0 的字符串）。
+
+3. 如果 start 比 stop 大，那么该方法在提取子串之前会先交换这两个参数。
+
+使用 substring() 从字符串中提取字符串，代码如下：
+
+<script type="text/javascript">
+  var mystr="I love JavaScript";
+  document.write(mystr.substring(7));
+  document.write(mystr.substring(2,6));
+</script>
+运行结果:
+
+JavaScript
+love
+ 
+
+任务
+运用substring()方法，完成子字符串的提取:
+1.补充右边编辑器第8行，从字符对象mystr中提取World!子字符串。
+
+2. 补充右边编辑器第9行，从字符对象mystr中提取Hello子字符串。
+</body>
+</html>

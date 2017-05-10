@@ -1,0 +1,157 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="朱硕华" />
+<meta name="copyright" content="特瑞科汽车配件（苏州）有限公司" />
+<meta name="description" content="特瑞科汽车系统（苏州）有限公司" />
+<meta name="keywords" content="特瑞科汽车系统（苏州）有限公司" />
+<title>特瑞科汽车系统（苏州）有限公司</title>
+<link href="F:\css.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div id="header">
+   
+  <div id="header_top">
+    	<div id="header_logo"><img src="../网页练习/顶部.png" width="940" height="72" /></div>
+        <div id="header_title"></div>
+    <div id="header_by"></div>
+    <div align="justify"></div>
+  </div>
+    
+    <div id="header_menu">
+    	<div id="header_men">
+        	<ul>
+				<li><a href="index.php" class="link-12-men">首　页</a></li>
+                <li class="b"></li>
+				<li><a href="company.php?art_parentid=1&art_childrenid=2" class="link-12-men">关于我们</a></li>
+                <li class="b"></li>
+			  <li><a href="pro.php" class="link-12-men">产品中心</a></li>
+                <li class="b"></li>
+			  <li><a href="quality.php?art_parentid=1&art_childrenid=11" class="link-12-men">管理体系</a></li>
+                <li class="b"></li>
+			  <li><a href="tech.php" class="link-12-men">技术与服务</a></li>
+                <li class="b"></li>
+			  <li><a href="case.php?art_parentid=15&art_childrenid=16" class="link-12-men">客　户</a></li>
+                <li class="b"></li>
+			  <li><a href="talent.php" class="link-12-men">人才招聘</a></li>
+                <li class="b"></li>
+				<li><a href="contact.php?art_parentid=19&art_childrenid=20" class="link-12-men">联系我们</a></li>
+                <li class="b"></li>
+			  <li><a href="http://www.tricoproducts.com" class="link-12-men" target="_blank">English</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="header_menu_bottom"></div>
+</div><div id="container">
+	<div id="index_left">
+         
+    	<div id="index_left_pro_title">  	  
+    	    <tr>
+    	      <div id="chanping">
+              <td width="101"><div  align="left">产品列表</div></td>
+              </div>
+  	      </tr>
+          
+  	    </table>
+    	</div>
+        <div id="index_left_pro_bg">
+        	<dl>
+                                    	<dt><a  href="pro.php?pro_parentid=2" class="link-12-leftlist">&nbsp&nbsp&nbsp&nbsp<img src="../网页练习/标项目符.png" width="12" height="10"border="0px" />售后市场产品</a></dt>
+                            
+                                <dd><a href="pro.php?pro_parentid=2&pro_childrenid=9" class="link-12-leftlist2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="../网页练习/小项目符.png" width="10" height="7" border="0px"/>Nu-Vision有骨刮片</a></dd></li>
+                                <dd><a href="pro.php?pro_parentid=2&pro_childrenid=11" class="link-12-leftlist2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="../网页练习/小项目符.png" width="10" height="7" border="0px"/>Exact Fit有骨刮片</a></dd></li>
+                                <dd><a href="pro.php?pro_parentid=2&pro_childrenid=12" class="link-12-leftlist2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="../网页练习/小项目符.png" width="10" height="7" border="0px"/>FLEX 无骨刮片</a></dd></li>
+                                <div style="border-bottom:1px dashed #cdcdcd;"></div>
+                                
+                        	<dt><a href="pro.php?pro_parentid=1" class="link-12-leftlist">&nbsp&nbsp&nbsp&nbsp<img src="../网页练习/标项目符.png" width="12" height="10" border="0px"/>整车市场产品</a></dt>
+                                <dd><a href="pro.php?pro_parentid=1&pro_childrenid=15" class="link-12-leftlist2">　　　<img src="../网页练习/小项目符.png" width="10" height="7" border="0px"/>雨刮系统总成</a></dd>
+                                <dd><a href="pro.php?pro_parentid=1&pro_childrenid=7" class="link-12-leftlist2">　　　<img src="../网页练习/小项目符.png" width="10" height="7" border="0px"/>雨刮马达</a></dd>
+                                <dd><a href="pro.php?pro_parentid=1&pro_childrenid=6" class="link-12-leftlist2">　　　<img src="../网页练习/小项目符.png" width="10" height="7" border="0px"/>连杆系统</a></dd>
+                                <dd><a href="pro.php?pro_parentid=1&pro_childrenid=5" class="link-12-leftlist2">　　　<img src="../网页练习/小项目符.png" width="10" height="7" border="0px"/>雨刮臂</a></dd>
+                                <dd><a href="pro.php?pro_parentid=1&pro_childrenid=3" class="link-12-leftlist2">　　　<img src="../网页练习/小项目符.png" width="10" height="7" border="0px"/>雨刮片</a></dd>
+                                <div style="border-bottom:1px dashed #cdcdcd;"></div>
+          </dl>
+        </div>
+        
+        
+      <div id="index_left_search">
+        <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <form action="prosearch.php" method="get" name="productsearch" id="productsearch">
+            <tr>
+              <td width="36%" height="30" align="left" valign="bottom"><font color="#FFFFFF">产品搜索：</font></td>
+              <td width="14%" height="30" align="left">&nbsp;</td>
+            </tr>
+            <tr id="sousuo">
+              <td  height="30" align="left">
+                <input name="keywords" type="text" class="smallInput" id="keywords" value="请输入产品名称" size="19" onMouseOver="this.focus()"  onfocus="this.select()" onClick="this.value=''">
+              </td>
+              <td height="30" align="center">
+              <input type="button" name="Submit" value="搜索"  cursor:hand;" onclick="prosearch()">
+              </td>
+              
+            </tr>
+            </form>
+            <script language="javascript">
+		function prosearch(){
+			if(document.productsearch.keywords.value=='' || document.productsearch.keywords.value=='请输入关键字'){
+				alert("请输入关键字！");
+				document.productsearch.kewords.focus();
+				return false;
+			}
+			document.productsearch.submit();
+		}
+		</script>
+        </table>
+      </div>
+        
+        
+      <div id="index_left_contact">
+        	<div id="index_left_contact_title">联系我们</div>
+            <div id="index_left_contact_content">
+            	<ul>
+                	<li>
+                    <b class="link-12-blue">特瑞科汽车系统（苏州）有限公司</b><br/>
+地　址：中国苏州工业园杏林街57号<br/>
+邮　编：215126<br/>
+电　话：86 512 62831688<br/>
+传　真：86 512 62831600<br/>
+网　址：<a href="http://www.tricoproducts.com.cn" class="link-12-red">www.tricoproducts.com.cn</a><br/>
+                    </li>
+                    <li class="more"><a href="contact.php?art_parentid=19&art_childrenid=20" class="link-12-blue">+More</a></li>
+                </ul>
+            </div>
+      </div>    </div>
+    <div id="index_right">
+    	<div id="index_right_pic">
+                <IMG src="http://php.tricoproducts.com.cn/upload//Plant.jpg" name=bannerADrotator width="708" height="289" border=0 
+style="FILTER: revealTrans(duration=2,transition=23)">
+        </div>
+      <SCRIPT language=JavaScript>nextAd()</SCRIPT>
+        <div id="index_right_company_title">公司简介</div>
+        <div id="index_right_company_content">
+                <p>                                       特瑞科汽车系统（苏州）有限公司从属于美国特瑞科TRICO（美国著名雨刮器品牌）公司，成立于2005年3月，位于中新苏州工业园区杏林街57号。公司建筑面积为16，000 平方米，其中生产厂房面积10000平方米，并于当年8月正式投产。作为美国特瑞科集团在亚洲的唯一工厂，苏州特瑞科公司竭力为客户提供优质的产品和优秀的服务。公司的主要业务为研究、开发、生产汽车车身控制系统、新型雨刮器及其电子控制系统、反光镜自动控制系统和其他零部件产品，并销售公司所生产的产品及提供售后服务。        ……[<a href="company.php?art_parentid=1&art_childrenid=2" class="link-12-red">详情点击</a>] </p></div>
+		<div id="index_right_pro">
+        	<div id="index_right_pro_title">
+        	  <table width="72" border="00" >
+        	    <tr id="chanping">
+        	      <td width="66">产品中心</td>
+      	      </tr>
+      	    </table>
+        	</div>
+            <div id="index_right_pro_content">
+            	<ul>
+                	                	<li><a href="showpro.php?pro_id=24" class="link-12-blue" target="_blank"><img src="http://php.tricoproducts.com.cn/upload//Nu-vision.JPG" width="215" height="126" border="0" /><span>Nu-Vision 有骨刮片</span></a></li>
+                                    	<li><a href="showpro.php?pro_id=25" class="link-12-blue" target="_blank"><img src="http://php.tricoproducts.com.cn/upload//Exact Fit.jpg" width="215" height="126" border="0" /><span>Exact Fit 有骨刮片</span></a></li>
+                                    	<li><a href="showpro.php?pro_id=27" class="link-12-blue" target="_blank"><img src="http://php.tricoproducts.com.cn/upload//FLEX.jpg" width="215" height="126" border="0" /><span>FLEX 无骨刮片</span></a></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+CopyRight 2008 特瑞科汽车系统（苏州）有限公司 <a href="http://www.tricoproducts.com.cn" class="link-12-blue">www.tricoproducts.com.cn</a> <a href="http://www.miibeian.gov.cn/" target="_blank" class="link-12-blue">苏ICP备05077495号-2</a></div></body>
+</html>

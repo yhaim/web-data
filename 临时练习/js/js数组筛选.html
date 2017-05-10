@@ -1,0 +1,57 @@
+<!DOCTYPE  HTML>
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<script type="text/javascript">
+var infos = [
+	['小A','女',21,'大一'],
+	['小B','男',23,'大三'],
+	['小C','男',24,'大四'],
+	['小C','男',24,'大四'],
+	['小D','女',21,'大一'],
+	['小E','女',22,'大四'],
+	['小F','男',21,'大一'],
+	['小G','女',22,'大二'],
+	['小H','女',20,'大三'],
+	['小I','女',20,'大一'],
+	['小J','男',20,'大三']
+	];
+for(var i = 0; i < infos.length; i++) 
+{
+	if(infos[i][3] === "大一" && infos[i][1] === "女")
+	{
+		document.write(infos[i][0] + "<br />");
+	}
+}
+
+//以上是同学代码
+
+//以下是参考代码
+
+var arr1 = [];
+   var n = 0;
+   for(var i=0;i<infos.length;i++){ 
+		if( infos[i][3] == "大一" ){  
+		   arr1[n] = infos[i];
+		    document.write(arr1[n]+"<br/>");
+		   n=n+1;
+		    
+		}  
+   }
+   
+   document.write("大一人数: "+arr1.length+"<br/>");  
+
+ //第二次筛选，找出都是女生的信息
+
+      for(var i=0;i<arr1.length;i++){ 
+        //这里可以用switch  
+		if(arr1[i][1]=='女')
+		{ document.write(arr1[i][0]+"<br/>");}
+	}     
+
+</script>
+</head>
+<body>
+</body>
+</html>

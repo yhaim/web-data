@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+</head>
+<body>
+
+<ul id="test">
+  <li>JavaScript</li>
+  <li>HTML</li>
+</ul> 
+ 
+<script type="text/javascript">
+
+  var otest = document.getElementById("test");  
+  var newnode=document.createElement("li");
+  var newtext=document.createTextNode("PHP");
+  newnode.appendChild(newtext);
+  otest.appendChild(newnode);
+  
+          
+</script> 
+
+</body>
+</html>
+<br>
+----------------------------------------------------
+<br>
+插入节点appendChild()
+在指定节点的最后一个子节点列表之后添加一个新的子节点。
+
+语法:
+
+appendChild(newnode)
+参数:
+
+newnode：指定追加的节点。
+
+我们来看看，div标签内创建一个新的 P 标签，代码如下:
+
+
+
+运行结果:
+
+HTML
+JavaScript
+This is a new p
+ 
+
+任务
+试一试，完成为UL标签添加一个新项PHP。
+
+1.在代码编辑器中，script标签内，为ul添加一个li。
+
+2.设置li内容为PHP。

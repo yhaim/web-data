@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<script type="text/javascript">
+var mystr="Hello World!";
+document.write( mystr.substr(6)  + "<br />");
+document.write( mystr.substr(0,5));
+</script>
+</head>
+<body>
+<br><br><br>
+提取指定数目的字符substr()
+substr() 方法从字符串中提取从 startPos位置开始的指定数目的字符串。
+
+语法:
+
+stringObject.substr(startPos,length)
+参数说明:
+
+
+
+注意：如果参数startPos是负数，从字符串的尾部开始算起的位置。也就是说，-1 指字符串中最后一个字符，-2 指倒数第二个字符，以此类推。
+
+如果startPos为负数且绝对值大于字符串长度，startPos为0。
+
+使用 substr() 从字符串中提取一些字符，代码如下：
+
+<script type="text/javascript">
+  var mystr="I love JavaScript!";
+  document.write(mystr.substr(7));
+  document.write(mystr.substr(2,4));
+</script>
+运行结果：
+
+JavaScript!
+love
+任务
+运用substr()方法，完成以下任务:
+
+1. 补充右边编辑器第8行，提取字符world!。
+
+2. 补充右边编辑器第9行，提取字符Hello。
+</body>
+</html>

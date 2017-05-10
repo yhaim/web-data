@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+        <title>无标题文档</title>
+    </head>
+    
+    <body>
+        <form>
+          请选择你爱好:<br>
+          <input type="checkbox" name="hobby" id="hobby1">  音乐
+          <input type="checkbox" name="hobby" id="hobby2">  登山
+          <input type="checkbox" name="hobby" id="hobby3">  游泳
+          <input type="checkbox" name="hobby" id="hobby4">  阅读
+          <input type="checkbox" name="hobby" id="hobby5">  打球
+          <input type="checkbox" name="hobby" id="hobby6">  跑步 <br>
+          <input type="button" value = "全选" onclick = "checkall();">
+          <input type="button" value = "全不选" onclick = "clearall();">
+          <p>请输入您要选择爱好的序号，序号为1-6:</p>
+          <input id="wb" name="wb" type="text" >
+          <input name="ok" type="button" value="确定" onclick = "checkone();">
+        </form>
+        <script type="text/javascript">
+
+        function checkall(){
+            var hobby = document.getElementsByTagName("input");
+			 for(i=0;i<hobby.length;i++){
+				 if(hobby[i].type=="checkbox"){
+					hobby[i].checked=true;
+				 }
+		   }
+          // 任务1 
+           
+        }
+        function clearall(){
+            var hobby = document.getElementsByName("hobby");
+            for (i=0;i<hobby.length ;i++ )
+            {
+				hobby[i].checked=false;
+            }
+         // 任务2    
+        }
+        
+        function checkone(){
+            var j=document.getElementById("wb").value;
+			var hobby=document.getElementById("hobby"+j);
+			hobby.checked=true;
+         // 任务3
+        
+        }
+        
+        </script>
+    </body>
+</html>
+
+<br>
+------------------------------------------------------------<br><br>
+区别getElementByID,getElementsByName,getElementsByTagName
+以人来举例说明，人有能标识身份的身份证，有姓名，有类别(大人、小孩、老人)等。
+
+1. ID 是一个人的身份证号码，是唯一的。所以通过getElementById获取的是指定的一个人。
+
+2. Name 是他的名字，可以重复。所以通过getElementsByName获取名字相同的人集合。
+
+3. TagName可看似某类，getElementsByTagName获取相同类的人集合。如获取小孩这类人，getElementsByTagName("小孩")。
+
+把上面的例子转换到HTML中，如下:
+
+<input type="checkbox" name="hobby" id="hobby1">  音乐
+input标签就像人的类别。
+
+name属性就像人的姓名。
+
+id属性就像人的身份证。
+
+方法总结如下:
+
+
+
+注意：方法区分大小写
+
+通过下面的例子(6个name="hobby"的复选项，两个按钮)来区分三种方法的不同:
+
+  <input type="checkbox" name="hobby" id="hobby1">  音乐
+  <input type="checkbox" name="hobby" id="hobby2">  登山
+  <input type="checkbox" name="hobby" id="hobby3">  游泳
+  <input type="checkbox" name="hobby" id="hobby4">  阅读
+  <input type="checkbox" name="hobby" id="hobby5">  打球
+  <input type="checkbox" name="hobby" id="hobby6">  跑步 
+  <input type="button" value = "全选" id="button1">
+  <input type="button" value = "全不选" id="button1">
+1. document.getElementsByTagName("input")，结果为获取所有标签为input的元素，共8个。
+
+2. document.getElementsByName("hobby")，结果为获取属性name="hobby"的元素，共6个。
+
+3. document.getElementById("hobby6")，结果为获取属性id="hobby6"的元素，只有一个，"跑步"这个复选项。
+
+ 
+
+ 
+
+ 
+
+任务
+1.在第27行处补充完整，实现当点击"全选"按钮时，将选中所有的复选项。
+
+提示:document.getElementsByTagName("input")获取的是所有input标签，包括复选项和按钮，所以要判断是否是复选项，如是选中。
+2.在第33行处补充完整，实现当点击"全不选"按钮时，将取消所有选中的复选项。
+
+3.在第40行处补充完整，在文本框中输入输入1-6数值，当点击"确定"按钮时，根据输入的数值，通过id选中相应的复选项。

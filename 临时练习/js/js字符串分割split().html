@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<script type="text/javascript">
+var mystr="86-010-85468578";
+document.write(   mystr.split("-")   + "<br />");
+document.write(   mystr.split("")   + "<br />");
+document.write(    mystr.split("",3));
+</script>
+</head>
+<body>
+<br>
+<br><br>
+字符串分割split()
+知识讲解：
+
+split() 方法将字符串分割为字符串数组，并返回此数组。
+
+语法：
+
+stringObject.split(separator,limit)
+参数说明:
+
+
+
+注意：如果把空字符串 ("") 用作 separator，那么 stringObject 中的每个字符之间都会被分割。
+
+我们将按照不同的方式来分割字符串：
+
+使用指定符号分割字符串，代码如下:
+
+var mystr = "www.imooc.com";
+document.write(mystr.split(".")+"<br>");
+document.write(mystr.split(".", 2)+"<br>");
+运行结果:
+
+www,imooc,com
+www,imooc
+将字符串分割为字符，代码如下：
+
+document.write(mystr.split("")+"<br>");
+document.write(mystr.split("", 5));
+运行结果:
+
+w,w,w,.,i,m,o,o,c,.,c,o,m
+w,w,w,.,i
+任务
+运用split()方法，完成以下任务，并输出:
+
+1. 补充右边编辑器第8行，以字符"-"分隔字符串对象mystr。
+
+2. 补充右边编辑器第9行，将字符串对象mystr每个字符分割。
+
+3. 补充右边编辑器第10行，将字符串对象mystr分割成字符，分割3次。
+</body>
+</html>

@@ -1,0 +1,18 @@
+1.
+	github网页新建库（new repository）
+2.
+	到github程序设置默认保存位置（齿轮-options-clone path）这个位置将存放所有文件
+3.
+	github程序加号clone库地址添加库，在文件夹下将出现一个和项目名一样的文件夹，同时出现git隐藏文件夹，以后所有项目的文件可以再这里删改，接着到程序同步
+4.
+	项目必须添加两个文件（create new file）
+			1.README.MD这是打开库看到的备注
+			2.CNAME（这是域名之间的转换，可以在settings-Custom domain添加自己的域名）
+	域名转换在阿里云的添加解析，服务器ip是github服务器的ip，等到有邮件提示就事解析成功
+5.
+	在库的文件夹下边加入自己的项目，html文件名是index.html,style和image另外做文件夹，同时把html里边的饮用外部样式和图片的地址修改
+6.
+	看到github程序里面选择现在的分支，最右边的大是现在项目的状态，最上边是改变的情况和历史记录，选择改变情况，输入summary，打钩，上传
+	（master-changes-输入summary-回车-sync）
+7.
+	看到github网页，刷新

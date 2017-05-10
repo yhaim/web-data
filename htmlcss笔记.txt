@@ -1,0 +1,92 @@
+边框border
+bottom底部
+left左
+right右
+top上
+图片默认有边框
+{border:5px solid red;}
+
+
+.top-content li
+{
+	list-style-image:url(../images/li_bg.gif);/*项目符号为图片的时候插入方法*/
+        float:right;
+	width:70px; /*设置宽度使标签板块之间有空隙，放得下项目符号*/
+        line-height:27px;/*与顶部有距离
+}
+
+
+.zhengge ul li{
+      float:left;
+	  width:50px;
+	  height:30px;
+	  background:#cc0000;
+	  list-style-type: none;/*去除项目符号*/
+	  text-align:center;/*把文本排列到中间*/
+	  font-family:"微软雅黑"；/*设置字体*/
+          letter-spacing:1px;/*调整字间距*/
+	  }
+
+
+.zhengge a:link,.zhengge a:visited{/*设置超链接初始状态和访问状态后均为黑色无下划线*/
+  text-decoration:none;
+  color:#000000;
+  font-size:18px;
+}
+
+
+CSS属性的排列顺序: L-V-H-A 。 
+L-V-H-A是link、visited、hover、active的简写。 
+它们分别表示 
+A:link 超链接的默认样式 
+A:visited 访问过的（已经看过的）链接样式 
+A:hover 鼠标处于鼠标悬停状态的链接样式 
+A:active 当鼠标左键按下时，被激活（就是鼠标按下去那一瞬间）的链接样式。
+
+
+
+1.焦点图初始化的id，与图片列表最外层的id一致。
+2.图片列表外面，必须包裹一个class为pic的div
+
+
+normal，它将取消斜体字风格
+
+
+background-size:cover/*调整背景大小，自动适应背景大小*/
+
+.newsContent{
+padding:20px 10px;
+text-indent:2em;/*首行缩进两个字符*/
+line-height:25px;/*行高25像素*/
+}
+
+.newsContent img{
+display:block;/*不允许有它内部的嵌套块元素*/
+margin:10px auto;/*盒子周围十个像素，同时居中对齐*/
+}
+
+
+焦点图软件myfocus
+
+   <link href="F:\网页\临时练习\1.css" rel="stylesheet" type="text/css"/><!--引用外部样式-->
+
+
+nav ul li {
+    display: inline-block;/*能够使无序列表横着排列*/
+    line-height: 50px;
+}
+
+
+.icon{
+	display:inline-block;
+	width:80px;
+	height:80px;
+	background:#2E8EE7;
+	transform:rotate(40deg);/*旋转方框四十五度*/
+}
+
+.article-preview:nth-child(odd) 
+{
+	background-color:rgba(255,255,255,0.08);}/*奇偶选择器，增加背景颜色蒙版*/
+
+font awesome图标字体网站

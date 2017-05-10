@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<script type="text/javascript">
+		function count()			//等号的事件开始
+			{
+			var d="";
+			var a=document.getElementById("txt1").value;
+			var b=document.getElementById("txt2").value;
+			var c=document.getElementById("select").value;
+			switch(c)
+			{
+				case"+":
+					d=parseInt(a)+parseInt(b);
+						break;
+				case"-":
+					d=a-b;
+						break;
+				case"*":
+					d=a*b;
+						break;
+				default:
+					a=a/b;
+			}
+			document.getElementById("fruit").value=d;
+		}
+	</script>
+</head>
+<body>
+<!--下面开始排列计算器的样式 -->
+
+	<input type="text" id="txt1"/>			<!--计算器的文本框-->
+
+	<select id="select">							<!--计算器的选择框-->
+		<option value="+">+</option>  
+		<option value="-">-</option>
+		<option value="*">*</option>
+		<option value="/">/</option>
+	</select>
+
+	<input type="text" id="txt2"/>				<!--计算器第二个文本框-->
+
+	<input type="button" value="=" onclick="count()"/>	<!-- 等号按钮 -->
+
+	<input type="text" id="fruit"/>					<!--第三个输出结果的文本框 -->
+
+</body>
+</html>

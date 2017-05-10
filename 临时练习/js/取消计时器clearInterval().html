@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>计时器</title>
+<script type="text/javascript">
+   function clock(){
+      var time=new Date();               	  
+      document.getElementById("clock").value = time;
+   }
+   function mm(){
+       i=setInterval("clock()",100);
+   }
+     
+</script>
+</head>
+<body>
+  <form>
+    <input type="text" id="clock" size="50"  />
+    <input type="button"value="start" onclick="mm()" />
+    <input type="button" value="Stop" onclick="clearInterval(i)" />
+
+  </form>
+  
+</body>
+</html>
+
+
+-----------------------------------------------------------------------------
+
+<br><br><br>
+
+  取消计时器clearInterval()
+clearInterval() 方法可取消由 setInterval() 设置的交互时间。
+
+语法：
+
+clearInterval(id_of_setInterval)
+参数说明:
+id_of_setInterval：由 setInterval() 返回的 ID 值。
+
+每隔 100 毫秒调用 clock() 函数,并显示时间。当点击按钮时，停止时间,代码如下:
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>计时器</title>
+<script type="text/javascript">
+   function clock(){
+      var time=new Date();                     
+      document.getElementById("clock").value = time;
+   }
+// 每隔100毫秒调用clock函数，并将返回值赋值给i
+     var i=setInterval("clock()",100);
+</script>
+</head>
+<body>
+  <form>
+    <input type="text" id="clock" size="50"  />
+    <input type="button" value="Stop" onclick="clearInterval(i)"  />
+  </form>
+</body>
+</html>
+ 
+
+任务
+补充右边编辑器第12行，使用setInterval()计时器，显示动态时间。
+
+补充右边编辑器第18行，点击Stop按钮后，取消计时器。

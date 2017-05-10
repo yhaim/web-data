@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>string对象 </title>
+  <script type="text/javascript">
+    var message="I love JavaScript!";
+    var mychar=  message.toLowerCase()   ;
+    document.write("字符串为："+mychar+"<br>");
+</script>
+</head>
+<body>
+<br>
+<br>
+在之前的学习中已经使用字符串对象了，定义字符串的方法就是直接赋值。比如：
+
+var mystr = "I love JavaScript!"
+定义mystr字符串后，我们就可以访问它的属性和方法。
+
+访问字符串对象的属性length:
+
+stringObject.length; 返回该字符串的长度。
+
+var mystr="Hello World!";
+var myl=mystr.length;
+以上代码执行后，myl 的值将是：12
+
+访问字符串对象的方法：
+
+使用 String 对象的 toUpperCase() 方法来将字符串小写字母转换为大写：
+
+var mystr="Hello world!";
+var mynum=mystr.toUpperCase();
+以上代码执行后，mynum 的值是：HELLO WORLD!
+</body>
+</html>

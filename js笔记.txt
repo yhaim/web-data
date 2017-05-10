@@ -1,0 +1,11 @@
+window.open(URL,name,specs,replace)//在新窗口中打开，url链接，看window参数表，三个参数不能少
+
+alert('想要弹出的窗口的内容')//打开页面时，弹出新的小窗口提示
+
+js的变量名可以字母、下划线或美元符号开头，后面可以跟字母、下划线、美元符号和数字
+不能使用js的关键字和保留字
+
+转换字符串为整数(Int)和浮点数(Float)
+var = "5"
+parseInt 得到 5
+parseFloat 得到 5.0
