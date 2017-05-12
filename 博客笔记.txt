@@ -7,7 +7,7 @@
 4.
 	项目必须添加两个文件（create new file）
 			1.README.MD这是打开库看到的备注
-			2.CNAME（这是域名之间的转换，可以在settings-Custom domain添加自己的域名）
+			2.CDNMA（这是域名之间的转换，可以在settings-Custom domain添加自己的域名）
 	域名转换在阿里云的添加解析，服务器ip是github服务器的ip，等到有邮件提示就事解析成功
 5.
 	在库的文件夹下边加入自己的项目，html文件名是index.html,style和image另外做文件夹，同时把html里边的饮用外部样式和图片的地址修改
